@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+main .results {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#accomodations-results {
+    background-color: #f2f2f2;
+
+    flex-basis: 60%;
+}
+#accomodations-results .results {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#most-popular {
+    background-color: #f2f2f2;
+    
+    flex-basis: 40%;
+}
+#most-popular .results {
+    display: flex;
+}
+
+#activities-results {
+    background-color: #f2f2f2;
+
+    flex-basis: 100%;
+}
+#activities-results .results {
+    display: flex;
+}
+
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 20px;
+}
