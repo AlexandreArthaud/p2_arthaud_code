@@ -13,15 +13,21 @@ header {
     display: flex;
     justify-content: space-between;
 
-    padding-left: 5%;
-    padding-right: 5%;
 
     /* temptest */
     background: white;
 }
 
+header h1 {
+    width: 20%;
+}
+
 header h1 img {
     height: 40px;
+}
+
+header nav {
+    width: 20%;
 }
 
 header nav ul {
@@ -32,7 +38,7 @@ header nav ul {
     margin: 0;
 }
 header nav ul li {
-    padding: 10%;
+    padding-top: 10%;
     margin: 0;
 }
 header nav ul li:hover {
