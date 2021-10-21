@@ -3,19 +3,13 @@
     font-family: 'Raleway';
 }
 
-body {
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
 /* Header */
 header {
     display: flex;
     justify-content: space-between;
-
-
-    /* temptest */
-    background: white;
+    
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 header h1 {
@@ -45,6 +39,51 @@ header nav ul li:hover {
     color: #0065FC;
 
     border-top: 3px solid#0065FC;
+}
+
+/* Search form */
+form {
+    background-color:white;
+
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+form .form-header h2 {
+    font-weight: normal;
+}
+form .filters {
+    display: flex;
+    align-items: baseline;
+    gap: 2%;
+}
+form .filter {
+    border: 1px solid #f2f2f2;
+    padding: 0.5%;
+
+    border-radius: 30px;
+}
+form .filter i {
+    background-color: #DEEBFF;
+    border: 1px solid #DEEBFF;
+
+}
+
+form .search-button {
+    background-color:#0065FC;
+    font-family: Raleway;
+    color: white;
+}
+form .info {
+    display: flex;
+    align-items: baseline;
+    gap: 1%;
+}
+form .info i {
+    color: blue;
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 0.8%;
 }
 
 main .results {
