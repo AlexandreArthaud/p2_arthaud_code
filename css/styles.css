@@ -42,15 +42,25 @@ main .results {
     display: flex;
 }
 
-
+/* FOOTER */
 footer nav {
     display: flex;
     justify-content: space-between;
+    
+
+    background-color: #f2f2f2;
 }
 
 footer nav ul {
     display: flex;
     flex-direction: column;
+
+    padding-left: 0;
+    list-style: none;
+}
+
+footer nav ul li {
+    padding-bottom: 5%;
 }
 
 figure img {
