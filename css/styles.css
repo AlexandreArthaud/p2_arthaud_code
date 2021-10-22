@@ -117,6 +117,7 @@ form .filter p {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 form .info {
     display: flex;
     align-items: center;
@@ -136,11 +137,68 @@ form .info .fa-info {
     height: 40px; 
 }
 
-main .results {
+/* General styling for result cards */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+figure {
+    background-color: white;
+
+    border-radius: 15%;
+    width: 100%;
+}
+figure img {
+    height: 100px;
+    width: 100%;
+
+    padding: 3%;
+    border-radius: 15% 15% 0% 0%;
+}
+figure figcaption {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+}
+figure h2 {
+    font-size: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+figure p {
+    margin-top: 5%;
+}
+figure .price {
+    font-weight: bold;
+}
+.rating {
+    color: #0065FC;
+}
+.rating .unstarred {
+    color: lightgray;
+}
+
+/* Main Styling */
+main {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+main > .results {
     display: inline-flex;
     flex-wrap: wrap;
     align-content: center;
     gap: 5%;
+}
+
+main .results section {
+    border-radius: 2%;
+    padding: 1.5%;
+}
+
+main .results section h1 {
+    font-size: 120%;
+    width: 100%;
 }
 
 #accomodations-results {
@@ -151,6 +209,11 @@ main .results {
 #accomodations-results .results {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 0;
+}
+#accomodations-results figure {
+    width: 90%;
 }
 
 #most-popular {
@@ -160,6 +223,17 @@ main .results {
 }
 #most-popular .results {
     display: flex;
+    flex-wrap: wrap;
+}
+#most-popular .results figure {
+    display: flex;
+
+    width: 90%;
+    height: 170px;
+}
+#most-popular .results figure img {
+    height: 100%;
+    width: 60%;
 }
 
 #activities-results {
@@ -167,6 +241,14 @@ main .results {
 }
 #activities-results .results {
     display: flex;
+    flex-wrap: wrap;
+}
+#activities-results figure img {
+    height: 200px;
+}
+#activities-results figure figcaption {
+    font-weight: bold;
+    font-size: 110%;
 }
 
 /* FOOTER */
@@ -188,14 +270,4 @@ footer nav ul {
 
 footer nav ul li {
     padding-bottom: 5%;
-}
-
-figure img {
-    width: 200px;
-    height: 200px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
 }
