@@ -290,22 +290,32 @@ main .results section h1 {
 }
 
 /* FOOTER */
+footer {
+    background-color: #f2f2f2;
+
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 footer nav {
     display: flex;
-    justify-content: space-between;
+    gap: 20%;
     
-
-    background-color: #f2f2f2;
 }
-
+footer nav h1 {
+    font-size: 120%;
+}
 footer nav ul {
     display: flex;
     flex-direction: column;
 
     padding-left: 0;
     list-style: none;
+    
+    line-height: 120%;
 }
-
 footer nav ul li {
     padding-bottom: 5%;
+
+    font-size: 90%;
 }
