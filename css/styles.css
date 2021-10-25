@@ -12,12 +12,11 @@ header {
     padding-right: 2%;
 }
 
-header h1 {
-    width: 20%;
-}
-
-header h1 img {
-    height: 40px;
+header img {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    height: 120px;
 }
 
 header nav {
