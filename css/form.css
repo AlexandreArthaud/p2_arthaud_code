@@ -53,12 +53,16 @@ form .search-button {
 form .filters {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
     gap: 2%;
+
     margin-top: 1%;
     margin-bottom: 1%;
 }
 form .filters h2 {
     font-size: 110%;
+
+    flex-basis: 100%;
 }
 form .filter {
     border: 3px solid #f2f2f2;
@@ -105,4 +109,30 @@ form .info .icon-background2 {
 form .info .fa-info {
     color: blue;
     height: 40px; 
+}
+
+.search-button i {
+    display: none;
+}
+
+/* smartphones */
+@media screen and (max-width: 768px) {
+    .search-button-text {
+        display: none;
+    }
+    form .form-header {
+        width: 90%;
+    }
+    form .filters {
+        width: 80%;
+    }
+    form .search {
+        align-items: center;
+    }
+    form .search-button {
+        border-radius: 5px 5px 5px 5px;
+    }
+    .search-button i {
+        display: inline;
+    }
 }
