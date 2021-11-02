@@ -27,3 +27,27 @@ footer nav ul li {
 
     font-size: 90%;
 }
+
+/* smartphones */
+@media screen and (max-width: 768px) {
+    footer nav {
+        flex-direction: column;
+        padding-top: 5%;
+    }
+    footer nav h2 {
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+        font-size: 120%;
+    }
+    footer nav ul {
+        padding-top: 0%;
+        margin-top: 2%;
+    }
+    footer nav ul li {
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+        font-size: 100%;
+    }
+}
