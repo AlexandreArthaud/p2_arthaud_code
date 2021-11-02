@@ -1,0 +1,38 @@
+.card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.card figure {
+    background-color: white;
+
+    border-radius: 15%;
+}
+.card figure img {
+    object-fit: cover;
+    border-radius: 150px;   
+
+    width:  100%;
+}
+.card figure figcaption {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+}
+.card figure h2 {
+    font-size: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.card figure p {
+    margin-top: 5%;
+}
+.card figure .price {
+    font-weight: bold;
+}
+.card figure .rating {
+    color: #0065FC;
+}
+.card figure .rating .unstarred {
+    color: lightgray;
+}

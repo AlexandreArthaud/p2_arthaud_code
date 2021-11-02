@@ -1,0 +1,168 @@
+main {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+}
+main > .results {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2%;
+}
+main .results section {
+    border-radius: 2%;
+    padding: 1.5%;
+}
+main .results section h1 {
+    font-size: 140%;
+    width: 100%;
+}
+
+#accomodations-results {
+    background-color: #f2f2f2;
+
+    flex-basis: 65%;
+}
+#accomodations-results .results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+
+    height: 95%;
+}
+#accomodations-results .results .card {
+    width: 33%;
+}
+#accomodations-results .results .card figure {
+    width: 90%;
+
+    margin: 1%;
+    padding: 2%;
+}
+#accomodations-results .results .card figure img {
+    height: 132px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+#accomodations-results .results .card figure figcaption  {
+    line-height: 90%;
+}
+#accomodations-results .results .card figure figcaption p {
+    padding-left: 0;
+}
+#accomodations-results .results p {
+    padding-left: 2%;
+}
+
+#most-popular {
+    background-color: #f2f2f2;
+    
+    flex-basis: 33%;
+}
+#most-popular header, #accomodations-results header {
+    display: flex;
+    align-items: center;
+
+    height: 10%;
+
+    padding-bottom: 3%;
+    padding-left: 0%;
+    padding-top: 3%;
+
+    font-size: 110%;
+}
+#most-popular .results {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 100%;
+}
+#most-popular .results .card {
+    width: 100%;
+    height: 160px;  
+
+    padding: 0;
+    margin: 0;
+}
+#most-popular .results .card figure {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+
+    padding: 1.5%;
+    height: 100%;
+}
+#most-popular .results .card figure img {
+    height: 100%;
+
+    border-radius: 25px 0 0 25px;
+}
+#most-popular .results .card figure figcaption {
+    width: 120%;
+}
+#most-popular .results .card figcaption .rating  {
+    font-size: 80%;
+}
+
+#activities-results {
+    flex-basis: 100%;
+
+    padding: 0;
+}
+#activities-results .results {
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 1%;
+
+    height: 500px; 
+}
+#activities-results .results .card {
+    width: 22%;
+    height: 48%;
+}
+#activities-results .results .card figure {
+    margin: 1%;
+    border: 2px solid #f2f2f2;
+    padding: 0;
+
+    height: 100%;
+}
+#activities-results .results .card figure img {
+    height: 80%;
+    border-radius: 10% 10% 0% 0%;
+}
+#activities-results .results .card figure figcaption {
+    display: flex;
+    align-items: center;
+
+    height: 20%;
+
+    font-size: 110%;
+    font-weight: bold;
+}
+
+#activities-results .results .card:nth-child(1) {
+    flex-basis: 100%;
+    height: 100%;
+}
+#activities-results .results .card:nth-child(1) figure img {
+    height: 90%;
+}
+#activities-results .results .card:nth-child(1) figure figcaption {
+    height: 10%;
+}
+#activities-results .results .card:nth-child(4) {
+    flex-basis: 100%;
+    height: 100%;
+}
+#activities-results .results .card:nth-child(4) figure img {
+    height: 90%;
+}
+#activities-results .results .card:nth-child(4) figure figcaption {
+    height: 10%;
+}
+
+
