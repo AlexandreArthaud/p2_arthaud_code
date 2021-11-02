@@ -41,3 +41,38 @@ header nav ul li a {
     text-decoration: none;
     color: inherit;
 }
+
+/* smartphones */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0;
+    } 
+    header img {
+        height: 100px;
+    }
+    header nav {
+        width: 100%;
+    }
+    header nav ul {
+        width: 100%;
+        gap: 0;
+        justify-content: center;
+    }
+    header nav ul li {
+        padding-top: 0;
+        padding-bottom: 3%;
+        width: 50%;
+
+        text-align: center;
+    }
+    header nav ul li:hover {
+        color: #0065FC;
+
+        border-top: 0;
+        border-bottom: 3px solid #0065FC;
+    }
+}
