@@ -28,6 +28,8 @@ form .search {
 }
 form .search i {
     padding: 5% 5% 5% 5%;
+
+    font-size: 100%;
 }
 form .search input {
     padding: 5% 5% 5% 5%;
@@ -65,18 +67,21 @@ form .filters h2 {
     flex-basis: 100%;
 }
 form .filter {
-    border: 3px solid #f2f2f2;
-    border-radius: 30px;
+    margin-bottom: 2%;
+    border: 2px solid #f2f2f2;
+    border-radius: 40px;
 
     font-weight: bold;
 }
 form .filter:hover {
-    background-color: #0065FC;    
     color: white;
     cursor: pointer;
+
+    color: #0065FC;
+    border: 2px solid #0065FC;
 }
 form .filter i {
-    border: 1px solid #DEEBFF;
+    border: 3px solid #DEEBFF;
     border-radius: 100%;
     padding: 10px;
 
@@ -120,19 +125,51 @@ form .info .fa-info {
     .search-button-text {
         display: none;
     }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
     form .form-header {
         width: 90%;
     }
     form .filters {
         width: 80%;
     }
+
     form .search {
-        align-items: center;
+        flex: 1 0 auto;
+
+        margin-left: 2%;
+        margin-right: 2%;
     }
-    form .search-button {
+    form .search > i {
+        flex: 1 0 15%;
+        text-align: center;
+
+        padding: unset;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    form .search input {
+        flex: 1 0 70%;
+
+        padding: unset;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 2%;
+    }
+    form .search .search-button {
+        flex: 1 0 15%;
+
+        padding: unset;
+        padding-top: 3%;
+        padding-bottom: 3%;
+
         border-radius: 5px 5px 5px 5px;
     }
-    .search-button i {
+    form .search-button i {
         display: inline;
+
+        flex: 1 0 auto;
     }
 }
