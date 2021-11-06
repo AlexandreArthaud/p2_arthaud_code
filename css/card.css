@@ -5,13 +5,12 @@
 .card figure {
     background-color: white;
 
-    border-radius: 15%;
+    border-radius: 30px;
 }
 .card figure img {
     object-fit: cover;
-    border-radius: 150px;   
 
-    width:  100%;
+    width: 100%;
 }
 .card figure figcaption {
     padding-left: 7%;
