@@ -174,8 +174,6 @@ main .results section {
     #most-popular {
         order: 0;
         padding: 0;
-        
-        height: 100%;
     }
     #most-popular header {
         flex-direction: row;
@@ -186,7 +184,7 @@ main .results section {
         padding-bottom: 0;
     }
     #most-popular .results {
-        height: 100%;
+        flex-direction: row;
 
         padding-left: 5%;
         padding-right: 5%;
@@ -194,9 +192,12 @@ main .results section {
     }
     #most-popular .results .card {
         padding-bottom: 3%;
+
+        height: unset;
     }
     #most-popular .results .card figure img {
-        width: 40%;
+        height: 170px;  
+        width: 90%;
     }
 
     #accomodations-results {
@@ -226,6 +227,7 @@ main .results section {
         box-shadow: 10px 5px 10px #f2f2f2;
     }
     #accomodations-results .results .card figure img {
+        height: 230px;
         flex-grow: 2;
     }
     #accomodations-results .results > p {
@@ -259,6 +261,6 @@ main .results section {
     #activities-results .results .card figure img,
     #activities-results .results .card:nth-child(1) figure img,
     #activities-results .results .card:nth-child(4) figure img {
-        height: 132px;
+        height: 270px;
     }
 }
