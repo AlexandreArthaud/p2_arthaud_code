@@ -197,7 +197,7 @@ main .results section {
     }
     #most-popular .results .card figure img {
         height: 170px;  
-        width: 90%;
+        min-width: 40%;
     }
 
     #accomodations-results {
