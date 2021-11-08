@@ -7,8 +7,9 @@ footer {
 }
 footer nav {
     display: flex;
-    gap: 20%;
-    
+}
+footer nav div {
+    padding-right: 10%;
 }
 footer nav h1 {
     font-size: 120%;
