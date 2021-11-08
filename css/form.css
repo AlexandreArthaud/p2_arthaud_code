@@ -80,10 +80,15 @@ form .filter:hover {
     background-color: #0065FC;
 }
 form .filter i {
-    margin: -2px;
+    margin: -1px;
     border: 3px solid #DEEBFF;
     border-radius: 100%;
     padding: 10px;
+
+    width: 46px;
+    height: 42px;
+
+    text-align: center;
 
     color: #0065FC;
     background-color: #DEEBFF;
