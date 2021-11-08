@@ -1,6 +1,8 @@
 .card {
     text-decoration: none;
     color: inherit;
+
+    height: fit-content;
 }
 .card figure {
     background-color: white;
