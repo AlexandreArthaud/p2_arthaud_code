@@ -12,7 +12,7 @@ header img {
 
     padding-left: 2%;
 
-    height: 40px;
+    height: 50px;
 }
 
 header nav {
@@ -72,8 +72,6 @@ header nav ul li a {
         text-align: center;
     }
     header nav ul li:hover {
-        color: #0065FC;
-
         border-top: 0;
         border-bottom: 3px solid #0065FC;
     }

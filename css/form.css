@@ -74,13 +74,13 @@ form .filter {
     font-weight: bold;
 }
 form .filter:hover {
-    color: white;
     cursor: pointer;
 
-    color: #0065FC;
-    border: 2px solid #0065FC;
+    color: white;
+    background-color: #0065FC;
 }
 form .filter i {
+    margin: -2px;
     border: 3px solid #DEEBFF;
     border-radius: 100%;
     padding: 10px;
