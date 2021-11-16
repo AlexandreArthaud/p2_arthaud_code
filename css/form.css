@@ -107,13 +107,9 @@ form .info {
     align-items: center;
     gap: 1%;
 }
-from .info span {
-    border: 10px solid #f2f2f2;
-    height: 20%;
-}
 form .info .icon-background2 {
     color:white;
-    border: 2px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     border-radius: 50%;
 }
 form .info .fa-info {
